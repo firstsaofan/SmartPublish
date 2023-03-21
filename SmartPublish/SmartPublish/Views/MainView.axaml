@@ -12,5 +12,19 @@
     <vm:MainViewModel />
   </Design.DataContext>
 
-  <TextBlock Text="{Binding Greeting}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+  <!--<TextBlock Text="{Binding Greeting}" HorizontalAlignment="Center" VerticalAlignment="Center"/>-->
+
+      <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+          <TextBlock Text="ÕËºÅ:" > 
+          <TextBox Margin="5" Width="200" ></TextBox>
+          </TextBlock>
+          <TextBlock Text="ÃÜÂë:"  > 
+          <TextBox Margin="3" Width="200" ></TextBox>
+          </TextBlock>
+          <SelectableTextBlock HorizontalAlignment="Center" >
+              <Button HorizontalAlignment="Center">µÇÂ¼</Button>
+              <Button HorizontalAlignment="Center">×¢²á</Button>
+          </SelectableTextBlock>
+      </StackPanel>
+  
 </UserControl>
